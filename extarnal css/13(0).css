@@ -1,0 +1,14 @@
+.part {
+    background-color: #141414;
+    color: #ebebeb;
+}
+.first {
+    text-align: center;
+}
+span.note {
+    font-size: 150%;
+}
+#title {
+    background-color: #aacddd;
+    font-size: 200%;
+}
