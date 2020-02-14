@@ -1,0 +1,37 @@
+body, html {
+    height: 100%;
+    scroll-behavior: initial;
+    overflow: hidden;
+}
+body {
+    background-color: #888888;
+}
+ul#bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+li.link {
+    float: left;
+    font-size: 120%;
+    font-family: "배달의민족 한나는 열한살 OTF", "배달의민족 한나는 열한살 TTF", "Noto Sans", "Noto Sans CJK KR", "맑은 고딕", "Malgun-Gothic";
+}
+li.link a {
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+}
+li.link a:hover {
+    background-color: #333333;
+}
+#window {
+    color: #FF6955;
+}
+#logo {
+    margin: 5px;
+}
