@@ -7,7 +7,6 @@ ul#bar {
     padding: 0;
     overflow: hidden;
     background-color: black;
-    box-shadow: 0px 0px 0px 0px black;
 }
 li.link {
     float: left;
@@ -15,13 +14,19 @@ li.link {
     font-family: "배달의민족 한나는 열한살 OTF", "배달의민족 한나는 열한살 TTF", "Noto Sans", "Noto Sans CJK KR", "맑은 고딕", "Malgun-Gothic";
 }
 li.link a {
-    display: block;
     color: white;
     background-color: black;
     text-align: center;
     padding: 15px;
+    display: block;
     text-decoration: none;
 }
 li.link a:hover {
     background-color: #333333;
+}
+#window {
+    color: #FF6955;
+}
+#logo {
+    padding: 5px;
 }
